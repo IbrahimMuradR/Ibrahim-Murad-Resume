@@ -24,7 +24,7 @@
     <h2>Professional Experience</h2>
 
     <h3>ZF Group – Principal Systems Engineer (2020–Present)</h3>
-    <li>At ZF I have worked on the Core Design implementation as well as the following customer projects : ZOOX, Toyota, SAIC Motor, Porsche, Mercedes, Wabco, CVCS & Audi.</li>
+    <p>A Tier 1 supplier, dealing with the design, development and manufacture of Automotive Vehicle parts. At ZF I have worked specifically in ADAS and Cybersecurity. This has involved working on the Core Product Design as well as the following customer projects : ZOOX, Toyota, SAIC Motor, Porsche, Mercedes, Wabco, CVCS & Audi.</p>
     
     <h3>Role: Cybersecurity Manager </h3>
     <h4>Project(s): Rear Axle Kinematics Controller (2 Customers), Electromechanical power take-off and Transmission Inverter Modules (CAL4)</h4>
@@ -65,14 +65,12 @@
         <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
     </ul>
 
-
     <h3>Role: Project Management Office Support</h3>
     <h4>Project(s): Radar and Camera Fusion System delivery for Customer Projects (ASIL -B System - ADAS)</h4>
     <ul>
         <li>Supporting critical burndown and triage of Open issues identified by the customer as well as from several domains including HW, SW, Systems, Algo and Validation for Radar, Camera and Fusion systems.</li>
         <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
     </ul>
-
 
     <h3>Role: Systems Project Lead</h3>
     <h4>Project(s): RFQ for Vehicle Domain Controller (ASIL D System)</h4>
@@ -82,8 +80,9 @@
     </ul>
 
 
-
     <h3>Jaguar Land Rover – HMI Systems Engineer / Project Lead (2015–2020)</h3>
+    <p>A Tier 1 OEM company, dealing with the design, development and manufacture of Automotive Vehicles. At JLR I worked within the Electrical department, specifically on Voice Control design, integration and validation from Concept to Post development support</p>
+
     <ul>
         <li>Integrated new speech engine and legacy features using GitLab and HIL rigs.</li>
         <li>Delivered global voice-control navigation across NAS, EU, China, Japan.</li>
