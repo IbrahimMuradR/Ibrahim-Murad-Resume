@@ -1,55 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f7f7f7;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Murad – Systems Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-nav {
-    background: #14273f;
-    padding: 12px;
-    text-align: center;
-}
+<body>
 
-nav a {
-    color: #fff;
-    margin: 0 18px;
-    text-decoration: none;
-    font-weight: bold;
-}
+<header>
+    <h1>Ibrahim Murad</h1>
+    <p>Systems Engineering Manager • Automotive • ADAS • Cybersecurity • Functional Safety</p>
+    <p>Toronto, ON (Relocation-Ready)</p>
+</header>
 
-header {
-    background: linear-gradient(135deg, #1e3a5f, #274a75);
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-section {
-    max-width: 900px;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-}
-
-h2 {
-    color: #1e3a5f;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #1e3a5f;
-    color: white;
-    margin-top: 40px;
-}
-
-.project-card, .role-card {
-    background: #f0f4fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">CV</a>
+    <a href="applicable-roles.html">Applicable Roles
