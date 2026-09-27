@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicable Roles – Ibrahim Murad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Applicable Roles</h1>
+    <p>Role Alignment Based on Experience & Competencies</p>
+</header>
+
+<nav>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="roles.html">Applicable Roles</a>
+</nav>
+
+<section>
+
+    <div class="role-card">
+        <h2>a) Principal Systems Engineer</h2>
+        <p>Strong background in ADAS radar systems, diagnostics, CAN-FD, Ethernet, SysML architecture, and safety reviews. Proven ability to lead platform feature delivery and cross-functional engineering teams.</p>
+    </div>
+
+    <div class="role-card">
+        <h2>b) Product Cybersecurity Lead</h2>
+        <p>Delivered ISO 21434 cybersecurity work packages including TARA, VA, CS Concept. Led cybersecurity design and homologation for major automotive programs. Experienced in regulatory compliance and secure system architecture.</p>
+    </div>
+
+    <div class="role-card">
+        <h2>c) Project & Program Manager</h2>
+        <p>Managed multi-disciplinary teams across HW, SW, Systems, Validation. Delivered global features under tight timelines. Experienced in Agile delivery, stakeholder management, and cross-functional coordination.</p>
+    </div>
+
+    <div class="role-card">
+        <h2>d) Systems Engineering Manager</h2>
+        <p>15+ years leading systems engineering delivery across ADAS, radar, cybersecurity, functional safety, and infotainment. Skilled in requirements engineering, architecture, integration, and program execution.</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Ibrahim Murad — Professional Engineering Portfolio
+</footer>
+
+</body>
+</html>
