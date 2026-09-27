@@ -11,7 +11,7 @@
 
 <header>
     <h1>Resume</h1>
-    <p>Systems Engineering Manager • Automotive • ADAS • Cybersecurity</p>
+    <p>Automotive • Hybrid and Electric Integration • Infotainment • ADAS • Cybersecurity (IS021434)• Safety (ISO26262)</p>
 </header>
 
 <nav>
@@ -23,13 +23,65 @@
 <section>
     <h2>Professional Experience</h2>
 
-    <h3>ZF Group – Principal Systems Engineer / Technical Project Lead (2020–Present)</h3>
+    <h3>ZF Group – Principal Systems Engineer (2020–Present)</h3>
+    <li>At ZF I have worked on the Core Design implementation as well as the following customer projects : ZOOX, Toyota, SAIC Motor, Porsche, Mercedes, Wabco, CVCS & Audi.</li>
+    
+    <h3>Role: Cybersecurity Manager </h3>
+    <h4>Project(s): Rear Axle Kinematics Controller (2 Customers), Electromechanical power take-off and Transmission Inverter Modules (CAL4)</h4>
     <ul>
-        <li>Led cybersecurity design and homologation for major automotive programs (ISO 21434).</li>
-        <li>Directed platform feature delivery: diagnostics, CAN-FD, Ethernet, fault management, calibration.</li>
-        <li>Managed DOORS requirements, SysML architecture, safety reviews (HARA, SFMEA, FTA, DFA).</li>
-        <li>Delivered radar vehicle integration and proof-of-concept systems.</li>
+        <li>Technical leadership role for the delivery of Cybersecurity (CS) for the overall system design.</li>
+        <li>Responsibility of delivery of WPs in compliance of ISO21434 from Conception to Post Production.</li> 
+        <li>Resource and workload management of Team members: this includes task allocation, delivery planning and performing peer reviews.</li> 
+        <li>WPs ownership include: Customer Requirement evaluation, Impact Analysis, CS Planning & RASIC, TARA, CS Concept, Requirements, Vulnerability Analysis, Fuzz & Pen Test scope, Manufacturing process security assessment, CS Case and Residual Risk Report.</li> 
+        <li>Cross functional management and peer reviews of CS WPs: Requirements, Architecture, Implementation, Test Specification, Reports evaluation for Systems, Software, HW and Manufacturing domains.</li> 
+        <li>Participating in Senior management reporting, IS021434 Assessment and ASPICE Audits.</li>
     </ul>
+
+    <h3>Role: Systems Project Lead </h3>
+    <h4>Project(s): Radar Systems delivery for Customer Projects (ASIL-B and ASIL-B(D) Systems)</h4>
+    <ul>
+        <li>Technical leadership role for platform functions such as Diagnostics, Communications for CAN-HS, CAN-FD (including J1939) and Ethernet, Communication Interfaces, Mode management, Power management, Calibration, Reprogramming, Time Synchronization, Fault Management, safety, Packaging and Homologation.</li>
+        <li>Technical leadership role and task assignment between the team for customer requirements reviews, system requirements (in DOORs) and Systems Architecture (using SysML on IBM Rhapsody).</li>
+        <li>Coordinating Feature owner discussions for all Open issues, including bugs and feature implementation.</li>
+        <li>Conducting & coordinating safety reviews for HARA, SFMEA, FTA and DFA between all relevant stakeholders.</li>
+        <li>Coordinating cyber security reviews for TARA and CS Concept between all relevant stakeholders.</li>
+        <li>Participate in reviews of program milestones, Gates, ASPICE audits and customer releases.</li>
+        <li>Creation of an Item/Product definition document as well as the establishment of a Production Test Specification document including the coordination of reviews with the manufacturing plant for approval.</li>
+        <li>Review of UN and regional regulatory (EU, FMVSS, India, China, Korea etc.) standards relevant to ADAS Fusion Systems (Camera and Radar) required for Homologation.</li>
+    </ul>
+
+    <h3>Role: Vehicle Integration Lead for ADAS Functions</h3>
+    <h4>Project(s): Integrate ADAS Radars on vehicle to create a Customer Demo vehicle</h4>
+    <ul>
+        <li>Responsible for the creation of a bench setup required for the vehicle, as proof of concept.</li>
+        <li>Responsible for the creation of a vehicle architecture design to initiate the mechanical and HW updates required for Vehicle integration.</li>
+        <li>Responsible for the coordination with workshop team for integration of HW Components, troubleshooting and testing.</li>
+    </ul>
+
+    <h3>Role: Project Management Office Support</h3>
+    <h4>Project(s): Radar and Camera Fusion System delivery for Customer Projects (ASIL -B System - ADAS)</h4>
+    <ul>
+        <li>Supporting critical burndown and triage of Open issues identified by the customer as well as from several domains including HW, SW, Systems, Algo and Validation for Radar, Camera and Fusion systems.</li>
+        <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
+    </ul>
+
+
+    <h3>Role: Project Management Office Support</h3>
+    <h4>Project(s): Radar and Camera Fusion System delivery for Customer Projects (ASIL -B System - ADAS)</h4>
+    <ul>
+        <li>Supporting critical burndown and triage of Open issues identified by the customer as well as from several domains including HW, SW, Systems, Algo and Validation for Radar, Camera and Fusion systems.</li>
+        <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
+    </ul>
+
+
+    <h3>Role: Systems Project Lead</h3>
+    <h4>Project(s): RFQ for Vehicle Domain Controller (ASIL D System)</h4>
+    <ul>
+        <li>Lead Technical discussions during the RFQ requirements review phase.</li>
+        <li>Creation of an agile Project plan: Task assignment and sprint effort distribution for the Team for setting up the project.</li>
+    </ul>
+
+
 
     <h3>Jaguar Land Rover – HMI Systems Engineer / Project Lead (2015–2020)</h3>
     <ul>
