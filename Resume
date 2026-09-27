@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV – Ibrahim Murad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Complete CV</h1>
+    <p>Systems Engineering Manager • Automotive • ADAS • Cybersecurity</p>
+</header>
+
+<nav>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="roles.html">Applicable Roles</a>
+</nav>
+
+<section>
+    <h2>Professional Experience</h2>
+
+    <h3>ZF Group – Principal Systems Engineer / Technical Project Lead (2020–Present)</h3>
+    <ul>
+        <li>Led cybersecurity design and homologation for major automotive programs (ISO 21434).</li>
+        <li>Directed platform feature delivery: diagnostics, CAN-FD, Ethernet, fault management, calibration.</li>
+        <li>Managed DOORS requirements, SysML architecture, safety reviews (HARA, SFMEA, FTA, DFA).</li>
+        <li>Delivered radar vehicle integration and proof-of-concept systems.</li>
+    </ul>
+
+    <h3>Jaguar Land Rover – HMI Systems Engineer / Project Lead (2015–2020)</h3>
+    <ul>
+        <li>Integrated new speech engine and legacy features using GitLab and HIL rigs.</li>
+        <li>Delivered global voice-control navigation across NAS, EU, China, Japan.</li>
+        <li>Designed connected speech architecture and multimodal HMI mapping.</li>
+    </ul>
+
+    <h3>Pi Innovo Ltd – Systems Engineer (2011–2015)</h3>
+    <ul>
+        <li>Designed HIL rigs and plant models using MATLAB/Simulink.</li>
+        <li>Developed EV control strategies and performed on-site vehicle testing.</li>
+        <li>Delivered infotainment tuner specifications using DOORS and Rhapsody.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <p><strong>MSc Electronic Systems with Sensor Technology</strong> – University of Warwick</p>
+    <p><strong>BS Engineering Sciences</strong> – Ghulam Ishaq Khan Institute</p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>MATLAB/Simulink</li>
+        <li>SysML (Rhapsody, Cameo)</li>
+        <li>CANalyzer / CANape</li>
+        <li>ISO 21434 / ISO 26262</li>
+        <li>DOORS / Codebeamer / JIRA</li>
+        <li>HIL / SIL / MIL Testing</li>
+    </ul>
+</section>
+
+<footer>
+    © 2026 Ibrahim Murad — Professional Engineering Portfolio
+</footer>
+
+</body>
+</html>
