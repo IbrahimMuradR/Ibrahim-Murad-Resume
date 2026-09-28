@@ -127,7 +127,7 @@
     <h4>Project: Creation of Hardware in the Loop plant model and Test rig design and Validation for a Hybrid Vehicle.</h4>
     <ul>
         <li>Achievement: Successfully setup a Hardware in the lool (HIL) test rig on AutoSim (in-house HIL Rig) that emulated the electrical environment of the vehicle.</li>
-        <li>chievement: Created a control system plant model in MATLAB Simulink flashed in AutoSim that tested the hybrid control model for Vehicle.</li>
+        <li>Achievement: Created a control system plant model in MATLAB Simulink flashed in AutoSim that tested the hybrid control model for Vehicle.</li>
     </ul>
 
     <h4>Project: Development of Electric Vehicle Control Simulink Model for Tier 1 OEM to test their new Torque strategy.</h4>
@@ -153,20 +153,36 @@
         <li>Validation and vehicle testing of deliverables on customer site.</li>
     </ul>
 
+    <h4>Project: Infotainment system requirements for Tuner features for Jaguar Land Rover.</h4>
+    <ul>
+        <li>To write Functional specifications and Design Prerequisites for an Infotainment Radio System using DOORs.</li>
+        <li>Performed, design validation of Use cases on Rhapsody models and HMI reviews.</li>
+        <li>Achievement: Received recognition award from Pi Innovo for Infotainment system design, for showing strong initiative and outstanding performance in reaching project objectives under strict timelines.</li>
+    </ul>
+
+    <h4>Project: Feasibility study of utilizing mobile phone hardware to record user’s vehicle data.</h4>
+    <ul>
+        <li>Performed Vehicle testing using on phone GPS device and Accelerometers to accurately log vehicle data in varying driving conditions.</li>
+        <li>Analysed collected phone data on MATLAB</li>
+        <li>Delivered feasibility study to show viability of pursuing project technically by identifying driving behaviour using data collected from phone.</li>
+    </ul>
 
 
     <h2>Education</h2>
-    <p><strong>MSc Electronic Systems with Sensor Technology</strong> – University of Warwick</p>
-    <p><strong>BS Engineering Sciences</strong> – Ghulam Ishaq Khan Institute</p>
+    <p><strong>MSc. Electronic Systems with Sensor Technology</strong> – University of Warwick</p>
+    <li>Dissertation: Low Frequency Analysis of Structures.</li>
+
+    <p><strong>BSc. Engineering Sciences with Specialisation in Semiconductors & Superconductors</strong> – Ghulam Ishaq Khan Institute of Engineering Sciences and Technology</p>
+    <li>Final Year Project: Designed and implemented a Brain Computer Interface through the construction of an Electroencephalogram.</li>
 
     <h2>Technical Skills</h2>
     <ul>
-        <li>MATLAB/Simulink</li>
-        <li>SysML (Rhapsody, Cameo)</li>
-        <li>CANalyzer / CANape</li>
-        <li>ISO 21434 / ISO 26262</li>
-        <li>DOORS / Codebeamer / JIRA</li>
-        <li>HIL / SIL / MIL Testing</li>
+        <li>Control Systems modelling: MATLAB/Simulink</li>
+        <li>System and SW architecture: SysML (Rhapsody, Cameo and Enterprise Architect)</li>
+        <li>Languages: C and Linux/QNX scripting</li>
+        <li>Requirements: DOORS, Codebeamer</li>
+        <li>Monitoring, Simulation and Debugging tools: Onboard diagnostic scanner, Vector CANdb++ Editor, CANalyzer, CANape, PiSnoop (Calibration & measurement sw)</li>
+        <li>Version control and OP/Task/Change management tools: Git, Artifactory, SVN, PTC Integrity, Codebeamer, Git, Clearquest, JIRA.
     </ul>
 </section>
 
