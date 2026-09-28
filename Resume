@@ -23,7 +23,7 @@
 <section>
     <h2>Professional Experience</h2>
 
-    <h3>ZF Group – Principal Systems Engineer (2020–Present)</h3>
+    <h2>ZF Group – Principal Systems Engineer (2020–Present)</h2>
     <p>A Tier 1 supplier, dealing with the design, development and manufacture of Automotive Vehicle parts. At ZF I have worked specifically in ADAS and Cybersecurity. This has involved working on the Core Product Design as well as the following customer projects : ZOOX, Toyota, SAIC Motor, Porsche, Mercedes, Wabco, CVCS & Audi.</p>
     
     <h3>Role: Cybersecurity Manager </h3>
@@ -76,7 +76,8 @@
         <li>Creation of an agile Project plan: Task assignment and sprint effort distribution for the Team for setting up the project.</li>
     </ul>
 
-    <h3>Jaguar Land Rover – (2015–2020)</h3>
+
+    <h2>Jaguar Land Rover – (2015–2020)</h2>
     <p>A Tier 1 OEM company, dealing with the design, development and manufacture of Automotive Vehicles. At JLR I worked within the Electrical department, specifically on Voice Control design, integration and validation from Concept to Post development support</p>
 
     <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
@@ -119,12 +120,41 @@
     </ul>
 
 
-    <h3>Pi Innovo Ltd – Systems Engineer (2011–2015)</h3>
+    <h2>Pi Innovo Ltd (2011–2015)</h2>
+    <pA specialist electronics solutions company, dealing with the design and development of Automotive, Transportation, Defence and Industrial technologies.</p>
+
+
+    <h3>Role: Systems Engineer</h3>
+    <h4>Project(s): Creation of Hardware in the Loop plant model and Test rig design and Validation for a Hybrid Vehicle.</h4>
     <ul>
-        <li>Designed HIL rigs and plant models using MATLAB/Simulink.</li>
-        <li>Developed EV control strategies and performed on-site vehicle testing.</li>
-        <li>Delivered infotainment tuner specifications using DOORS and Rhapsody.</li>
+        <li>Achievement: Successfully setup a Hardware in the lool (HIL) test rig on AutoSim (in-house HIL Rig) that emulated the electrical environment of the vehicle.</li>
+        <li>chievement: Created a control system plant model in MATLAB Simulink flashed in AutoSim that tested the hybrid control model for Vehicle.</li>
     </ul>
+
+    <h3>Role: Systems Engineer</h3>
+    <h4>Project(s): Development of Electric Vehicle Control Simulink Model for Tier 1 OEM to test their new Torque strategy.</h4>
+    <ul>
+        <li>Design an electric vehicle control model using MATLAB Simulink on OpenECU (in-house platform).</li>
+        <li>Creation of Model in the loop (MIL) test plan and validation of model created in Simulink</li>
+    </ul>
+
+    <h3>Role: Systems Engineer</h3>
+    <h4>Project(s): Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
+    <ul>
+        <li>To write functional requirements against customer requirements and update MATLAB Simulink models based on new requirements.</li>
+        <li>To write test plans and tuning guides against functional requirements and MATLAB Simulink models.</li>
+        <li>Software in the loop (SIL) testing: Autocoding and Reactis automated testing of designed models.</li>
+    </ul>
+
+    <h3>Role: Systems Engineer</h3>
+    <h4>Project(s): Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
+    <ul>
+        <li>To write functional requirements against customer requirements and update MATLAB Simulink models based on new requirements.</li>
+        <li>To write test plans and tuning guides against functional requirements and MATLAB Simulink models.</li>
+        <li>Software in the loop (SIL) testing: Autocoding and Reactis automated testing of designed models.</li>
+    </ul>
+
+
 
     <h2>Education</h2>
     <p><strong>MSc Electronic Systems with Sensor Technology</strong> – University of Warwick</p>
