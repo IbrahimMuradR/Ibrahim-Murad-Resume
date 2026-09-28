@@ -77,10 +77,10 @@
     </ul>
 
 
-    <h2>Jaguar Land Rover – (2015–2020)</h2>
+    <h2>Jaguar Land Rover – HMI Systems Engineer(2015–2020)</h2>
     <p>A Tier 1 OEM company, dealing with the design, development and manufacture of Automotive Vehicles. At JLR I worked within the Electrical department, specifically on Voice Control design, integration and validation from Concept to Post development support</p>
 
-    <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
+    <h3>Role: Systems Engineer / Project Lead / Feature Owner </h3>
     <h4>Project(s): Delivery of new speech engine and integration of its legacy features on Infotainment platform.</h4>
     <ul>
         <li>Coordinating discussions with Purchasing and Department head for Supplier selection process and getting buy-in from Product line heads, Marketing and Legal.</li>
@@ -92,8 +92,8 @@
         <li>Achievement: Successful product launch of a new speech engine paving way for future dev of features on that platform.</li>
     </ul>
 
-    <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
-    <h4>Project(s): Delivery of new feature: speech control of navigation with complete market coverage.</h4>
+    <h3>Role: Systems Engineer / Project Lead / Feature Owner </h3>
+    <h4>Project: Delivery of new feature: speech control of navigation with complete market coverage.</h4>
     <ul>
         <li>Customer requirements definition and negotiating business buy-in with all relevant stakeholders for proof of concept feasibility and rollout.</li>
         <li>Statement of Work (SOW) writeup and discussion with supplier regarding scope.</li>    
@@ -122,32 +122,28 @@
 
     <h2>Pi Innovo Ltd (2011–2015)</h2>
     <pA specialist electronics solutions company, dealing with the design and development of Automotive, Transportation, Defence and Industrial technologies.</p>
-
-
     <h3>Role: Systems Engineer</h3>
-    <h4>Project(s): Creation of Hardware in the Loop plant model and Test rig design and Validation for a Hybrid Vehicle.</h4>
+
+    <h4>Project: Creation of Hardware in the Loop plant model and Test rig design and Validation for a Hybrid Vehicle.</h4>
     <ul>
         <li>Achievement: Successfully setup a Hardware in the lool (HIL) test rig on AutoSim (in-house HIL Rig) that emulated the electrical environment of the vehicle.</li>
         <li>chievement: Created a control system plant model in MATLAB Simulink flashed in AutoSim that tested the hybrid control model for Vehicle.</li>
     </ul>
 
-    <h3>Role: Systems Engineer</h3>
-    <h4>Project(s): Development of Electric Vehicle Control Simulink Model for Tier 1 OEM to test their new Torque strategy.</h4>
+    <h4>Project: Development of Electric Vehicle Control Simulink Model for Tier 1 OEM to test their new Torque strategy.</h4>
     <ul>
         <li>Design an electric vehicle control model using MATLAB Simulink on OpenECU (in-house platform).</li>
         <li>Creation of Model in the loop (MIL) test plan and validation of model created in Simulink</li>
     </ul>
 
-    <h3>Role: Systems Engineer</h3>
-    <h4>Project(s): Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
+    <h4>Project: Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
     <ul>
         <li>To write functional requirements against customer requirements and update MATLAB Simulink models based on new requirements.</li>
         <li>To write test plans and tuning guides against functional requirements and MATLAB Simulink models.</li>
         <li>Software in the loop (SIL) testing: Autocoding and Reactis automated testing of designed models.</li>
     </ul>
 
-    <h3>Role: Systems Engineer</h3>
-    <h4>Project(s): Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
+    <h4>Project: Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
     <ul>
         <li>To write functional requirements against customer requirements and update MATLAB Simulink models based on new requirements.</li>
         <li>To write test plans and tuning guides against functional requirements and MATLAB Simulink models.</li>
