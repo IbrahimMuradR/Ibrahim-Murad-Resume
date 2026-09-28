@@ -80,13 +80,32 @@
     </ul>
 
 
-    <h3>Jaguar Land Rover – HMI Systems Engineer / Project Lead (2015–2020)</h3>
+    <h3>Jaguar Land Rover – (2015–2020)</h3>
     <p>A Tier 1 OEM company, dealing with the design, development and manufacture of Automotive Vehicles. At JLR I worked within the Electrical department, specifically on Voice Control design, integration and validation from Concept to Post development support</p>
 
+    <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
+    <h4>Project(s): Delivery of new speech engine and integration of its legacy features on Infotainment platform.</h4>
     <ul>
-        <li>Integrated new speech engine and legacy features using GitLab and HIL rigs.</li>
-        <li>Delivered global voice-control navigation across NAS, EU, China, Japan.</li>
-        <li>Designed connected speech architecture and multimodal HMI mapping.</li>
+        <li>Legacy feature integration using Gitlab on Natural Language Understanding (NLU) and non-NLU languages and Validation of Audio path.</li>
+        <li>Set up of HIL Rig and creation of test plan.</li>
+        <li>Whilst working in an Agile environment, troubleshooting and triaging of defects on released software and delivery management of consequent fixes.</li>
+        <li>As project lead, providing cross functional role managing Systems, Software, Quality and Validation teams and their deliverables.</li>
+        <li>Managing senior management expectations with regards to reporting and KPIs.</li>
+        <li>Achievement: Successful product launch of a new speech engine paving way for future dev of features on that platform.</li>
+    </ul>
+
+    <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
+    <h4>Project(s): Delivery of new feature: speech control of navigation with complete market coverage.</h4>
+    <ul>
+        <li>Customer requirements definition and negotiating business buy-in with all relevant stakeholders at JLR.</li>
+        <li>Statement of Work (SOW) writeup and discussion with supplier regarding scope.</li>    
+        <li>Dialog Design and API definition review for usecase development.</li>    
+        <li>Creation of wireframes: definition of Assets and Content, for the HMI Screen and its multimodal mapping for speech dialogues.</li>    
+        <li>Design and review for Voice control of Navigation in multiple markets (NAS, EU, China, Japan, Rest of World (ROW)).</li>    
+        <li>Designing SW architecture Rhapsody Model sequences for integration of various SW components and layers (HMI<->Application<->Middleware) for Voice control.</li> 
+        <li>Integration of software deliveries to infotainment platform using Git.
+        <li>Validation of Voice control implementation in branched software, against Functional requirements, HMI requirements and wireframes before merging to mainline.</li>
+        <li>Troubleshooting and triaging issues raised by fleet on TT, PP and PV builds.
     </ul>
 
     <h3>Pi Innovo Ltd – Systems Engineer (2011–2015)</h3>
