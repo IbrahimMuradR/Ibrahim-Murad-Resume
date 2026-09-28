@@ -143,11 +143,14 @@
         <li>Software in the loop (SIL) testing: Autocoding and Reactis automated testing of designed models.</li>
     </ul>
 
-    <h4>Project: Delphi Systems Design and Testing of Fuel injection and Engine safety monitoring Simulink Models.</h4>
+    <h4>Project: Design, development, integration and validation of OpenECU model interfaced with an Electric Motor.</h4>
     <ul>
-        <li>To write functional requirements against customer requirements and update MATLAB Simulink models based on new requirements.</li>
-        <li>To write test plans and tuning guides against functional requirements and MATLAB Simulink models.</li>
-        <li>Software in the loop (SIL) testing: Autocoding and Reactis automated testing of designed models.</li>
+        <li>Wrote requirements for the OpenECU implementation for the Axle controller subsystem interfaced with Electric Motor over CAN.</li>
+        <li>Created Models in MATLAB Simulink against those requirements</li>
+        <li>Tested the Axle Controller communication with a simulated motor development kit.</li>
+        <li>Model in the loop (MIL) testing of the completed model.</li>
+        <li>Worked on the vehicle integration to create mild hybrid vehicle that spoofed Vehicle ECU with OpenECU</li>
+        <li>Validation and vehicle testing of deliverables on customer site.</li>
     </ul>
 
 
