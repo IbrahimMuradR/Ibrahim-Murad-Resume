@@ -27,7 +27,7 @@
     <p>A Tier 1 supplier, dealing with the design, development and manufacture of Automotive Vehicle parts. At ZF I have worked specifically in ADAS and Cybersecurity. This has involved working on the Core Product Design as well as the following customer projects : ZOOX, Toyota, SAIC Motor, Porsche, Mercedes, Wabco, CVCS & Audi.</p>
     
     <h3>Role: Cybersecurity Manager </h3>
-    <h4>Project(s): Rear Axle Kinematics Controller (2 Customers), Electromechanical power take-off and Transmission Inverter Modules (CAL4)</h4>
+    <h4>Project(s): Rear Axle Kinematics Controller (AKC) (2 Customers), Electromechanical power take-off (MPTO) and Transmission Inverter Modules (CAL4)</h4>
     <ul>
         <li>Technical leadership role for the delivery of Cybersecurity (CS) for the overall system design.</li>
         <li>Responsibility of delivery of WPs in compliance of ISO21434 from Conception to Post Production.</li> 
@@ -35,6 +35,7 @@
         <li>WPs ownership include: Customer Requirement evaluation, Impact Analysis, CS Planning & RASIC, TARA, CS Concept, Requirements, Vulnerability Analysis, Fuzz & Pen Test scope, Manufacturing process security assessment, CS Case and Residual Risk Report.</li> 
         <li>Cross functional management and peer reviews of CS WPs: Requirements, Architecture, Implementation, Test Specification, Reports evaluation for Systems, Software, HW and Manufacturing domains.</li> 
         <li>Participating in Senior management reporting, IS021434 Assessment and ASPICE Audits.</li>
+        <li>Achievement: Successful closure of CS Assessment for MPTO (AKC projects are ongoing).</li>
     </ul>
 
     <h3>Role: Systems Project Lead </h3>
@@ -48,6 +49,7 @@
         <li>Participate in reviews of program milestones, Gates, ASPICE audits and customer releases.</li>
         <li>Creation of an Item/Product definition document as well as the establishment of a Production Test Specification document including the coordination of reviews with the manufacturing plant for approval.</li>
         <li>Review of UN and regional regulatory (EU, FMVSS, India, China, Korea etc.) standards relevant to ADAS Fusion Systems (Camera and Radar) required for Homologation.</li>
+        <li>Achievement: Successful delivery of all System work products with quality acceptance.</li>
     </ul>
 
     <h3>Role: Vehicle Integration Lead for ADAS Functions</h3>
@@ -56,6 +58,7 @@
         <li>Responsible for the creation of a bench setup required for the vehicle, as proof of concept.</li>
         <li>Responsible for the creation of a vehicle architecture design to initiate the mechanical and HW updates required for Vehicle integration.</li>
         <li>Responsible for the coordination with workshop team for integration of HW Components, troubleshooting and testing.</li>
+        <li>Achievement: Successful Proof of Concept for Vehicle</li>
     </ul>
 
     <h3>Role: Project Management Office Support</h3>
@@ -63,13 +66,7 @@
     <ul>
         <li>Supporting critical burndown and triage of Open issues identified by the customer as well as from several domains including HW, SW, Systems, Algo and Validation for Radar, Camera and Fusion systems.</li>
         <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
-    </ul>
-
-    <h3>Role: Project Management Office Support</h3>
-    <h4>Project(s): Radar and Camera Fusion System delivery for Customer Projects (ASIL -B System - ADAS)</h4>
-    <ul>
-        <li>Supporting critical burndown and triage of Open issues identified by the customer as well as from several domains including HW, SW, Systems, Algo and Validation for Radar, Camera and Fusion systems.</li>
-        <li>Development of metrics to assess progress and responsible for reporting issues to Senior management.</li>
+        <li>Achievement: Successful burndown of all critical issues and overall closure of 1290/1340 open issues within 3 months.</li>
     </ul>
 
     <h3>Role: Systems Project Lead</h3>
@@ -79,13 +76,13 @@
         <li>Creation of an agile Project plan: Task assignment and sprint effort distribution for the Team for setting up the project.</li>
     </ul>
 
-
     <h3>Jaguar Land Rover – (2015–2020)</h3>
     <p>A Tier 1 OEM company, dealing with the design, development and manufacture of Automotive Vehicles. At JLR I worked within the Electrical department, specifically on Voice Control design, integration and validation from Concept to Post development support</p>
 
     <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
     <h4>Project(s): Delivery of new speech engine and integration of its legacy features on Infotainment platform.</h4>
     <ul>
+        <li>Coordinating discussions with Purchasing and Department head for Supplier selection process and getting buy-in from Product line heads, Marketing and Legal.</li>
         <li>Legacy feature integration using Gitlab on Natural Language Understanding (NLU) and non-NLU languages and Validation of Audio path.</li>
         <li>Set up of HIL Rig and creation of test plan.</li>
         <li>Whilst working in an Agile environment, troubleshooting and triaging of defects on released software and delivery management of consequent fixes.</li>
@@ -97,7 +94,7 @@
     <h3>Role: HMI Systems Engineer / Project Lead / Feature Owner </h3>
     <h4>Project(s): Delivery of new feature: speech control of navigation with complete market coverage.</h4>
     <ul>
-        <li>Customer requirements definition and negotiating business buy-in with all relevant stakeholders at JLR.</li>
+        <li>Customer requirements definition and negotiating business buy-in with all relevant stakeholders for proof of concept feasibility and rollout.</li>
         <li>Statement of Work (SOW) writeup and discussion with supplier regarding scope.</li>    
         <li>Dialog Design and API definition review for usecase development.</li>    
         <li>Creation of wireframes: definition of Assets and Content, for the HMI Screen and its multimodal mapping for speech dialogues.</li>    
@@ -105,8 +102,22 @@
         <li>Designing SW architecture Rhapsody Model sequences for integration of various SW components and layers (HMI<->Application<->Middleware) for Voice control.</li> 
         <li>Integration of software deliveries to infotainment platform using Git.
         <li>Validation of Voice control implementation in branched software, against Functional requirements, HMI requirements and wireframes before merging to mainline.</li>
-        <li>Troubleshooting and triaging issues raised by fleet on TT, PP and PV builds.
+        <li>Troubleshooting and triaging issues raised by fleet on TT, PP and PV builds as well as providing continual support for Post Production vehicles.
+        <li>Achievement: Successful product launch, dialog design and integration of a new feature: voice control of Nav in all saleable markets. I also received an outstanding appraisal as a result of delivering against a very constrained timeline.</li>
     </ul>
+
+    <h3>Key Contributions and Responsibilities.</h3>
+    <ul>
+        <li>Designed connected speech architecture and defined secure server interaction with the Voice control system.</li>
+        <li>Management of project team and global suppliers, delegation of tasks and mentoring team members.</li>    
+        <li>Senior Management reviews and reporting, as well as demos for Proof of Concept UI improvements.</li>    
+        <li>Managing commercial discussions with Suppliers from RFI to project completion.</li>    
+        <li>To verify feasibility of cabin accoustics and validate Voice implementation across several vehicle lines and hardware variants.</li>    
+        <li>Successful integration, validation and delivery of new NLU languages (20 languages) for high value markets.</li>    
+        <li>Analysis, triaging and debugging of issues found in the market. Liaising with dealerships to deliver fixes.</li>    
+        <li>Analysis of competitor vehicles with respect to their Voice UI and UX.</li>
+    </ul>
+
 
     <h3>Pi Innovo Ltd – Systems Engineer (2011–2015)</h3>
     <ul>
