@@ -97,4 +97,9 @@ footer {
     padding-bottom: 0 !important;
 }
 
+.role-content.open {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
 
