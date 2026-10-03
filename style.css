@@ -54,11 +54,13 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Divider line between sections */
 .role-section {
-    border-bottom: none;
+    border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
 
+/* Header row with title + toggle icon */
 .role-header {
     display: flex;
     justify-content: space-between;
@@ -68,6 +70,7 @@ footer {
     font-weight: 600;
 }
 
+/* Circle around + / – */
 .toggle-icon {
     width: 24px;
     height: 24px;
@@ -81,25 +84,21 @@ footer {
     transition: all 0.2s ease;
 }
 
+/* Collapsed content */
 .role-content {
     display: none;
-    padding: 4px 0 10px 0; /* top | right | bottom | left */
+    padding: 4px 0 10px 0; /* tighter gap above paragraph, normal gap below */
     font-size: 1rem;
     line-height: 1.5;
 }
 
+/* Expanded content */
 .role-content.open {
     display: block;
 }
 
+/* Remove underline from headings inside role sections */
 .role-header h2.role-title {
     border-bottom: none !important;
     padding-bottom: 0 !important;
 }
-
-.role-content.open {
-    display: block;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-}
-
