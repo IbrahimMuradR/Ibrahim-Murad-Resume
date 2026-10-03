@@ -83,7 +83,7 @@ footer {
 
 .role-content {
     display: none;
-    padding: 10px 0;
+    padding: 4px 0 10px 0; /* top | right | bottom | left */
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -95,15 +95,6 @@ footer {
 .role-header h2.role-title {
     border-bottom: none !important;
     padding-bottom: 0 !important;
-}
-
-.role-header h2 {
-    margin-bottom: 4px;   /* reduce space under heading */
-}
-
-.role-content {
-    padding-top: 4px;     /* reduce space above paragraph */
-    padding-bottom: 10px; /* keep original bottom spacing */
 }
 
 
