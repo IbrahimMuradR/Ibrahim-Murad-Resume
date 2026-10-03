@@ -108,11 +108,14 @@ footer {
     gap: 16px;
     margin-top: 12px;     /* spacing below Contact heading */
     margin-bottom: 16px;  /* spacing above the body text */
+    align-items: center;  /* keeps icons aligned perfectly */
 }
 
 .contact-icons img {
     width: 40px;
     height: 40px;
+    object-fit: contain;  /* prevents distortion */
     display: block;
 }
+
 
