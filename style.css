@@ -103,13 +103,14 @@ footer {
     padding-bottom: 0;
 }
 
-.contact-icons {
-    display: flex;
-    gap: 16px;
-    margin-top: 12px;     /* spacing below Contact heading */
-    margin-bottom: 16px;  /* spacing above the body text */
-    align-items: center;  /* keeps icons aligned perfectly */
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;   /* crops excess padding */
+    border-radius: 6px;  /* optional: makes them look cleaner */
+    background: white;   /* optional: removes transparency artifacts */
 }
+
 
 .contact-icons img {
     width: 40px;
