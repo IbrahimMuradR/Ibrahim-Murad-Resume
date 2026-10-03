@@ -56,7 +56,7 @@ footer {
 
 /* Each role block */
 .role-section {
-    border-bottom: 1px solid #ccc;   /* divider between sections */
+    border-bottom: 1px solid #ccc;   
     padding: 10px 0;
 }
 
@@ -87,7 +87,7 @@ footer {
 /* Collapsed content */
 .role-content {
     display: none;
-    padding: 4px 0 10px 0; /* tighter gap above paragraph, normal gap below */
+    padding: 4px 0 10px 0;
     font-size: 1rem;
     line-height: 1.5;
 }
