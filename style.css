@@ -118,4 +118,43 @@ footer {
     display: block;
 }
 
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* Modal box */
+.modal-content {
+    background: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Close button */
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Call button */
+.call-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #1e3a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
 
