@@ -80,31 +80,34 @@
 </footer>
 
 <script>
-const phoneIcon = document.getElementById('phoneIcon');
-const modal = document.getElementById('phoneModal');
-const closeBtn = document.querySelector('.close');
+document.addEventListener("DOMContentLoaded", function() {
 
-// Detect mobile
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const phoneIcon = document.getElementById('phoneIcon');
+    const modal = document.getElementById('phoneModal');
+    const closeBtn = document.querySelector('.close');
 
-phoneIcon.addEventListener('click', function(e) {
-    e.preventDefault();
+    // Detect mobile
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-    if (isMobile) {
-        // Mobile → call directly
-        window.location.href = "tel:+447927021224";
-    } else {
-        // Desktop → show popup
-        modal.style.display = "block";
-    }
+    phoneIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        if (isMobile) {
+            window.location.href = "tel:+447927021224";
+        } else {
+            modal.style.display = "block";
+        }
+    });
+
+    closeBtn.onclick = () => modal.style.display = "none";
+
+    window.onclick = (e) => {
+        if (e.target === modal) modal.style.display = "none";
+    };
+
 });
-
-// Close modal
-closeBtn.onclick = () => modal.style.display = "none";
-window.onclick = (e) => {
-    if (e.target === modal) modal.style.display = "none";
-};
 </script>
+
 
 </body>
 </html>
