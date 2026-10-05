@@ -164,3 +164,53 @@ footer {
     border-radius: 6px;
 }
 
+.image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border: 1px solid #1e3a5f;
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    animation: fadeIn 0.4s ease;
+}
+
+.slide.active {
+    display: block;
+}
+
+.video-slide {
+    display: none;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #1e3a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+
+.prev-btn:hover, .next-btn:hover {
+    background: #274a78;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
