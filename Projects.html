@@ -1,3 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects – Ibrahim Murad</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .image-slider {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            border: 1px solid #1e3a5f;
+            border-radius: 8px;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .prev-btn, .next-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #1e3a5f;
+            color: #fff;
+            border: none;
+            padding: 10px 14px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .prev-btn { left: 10px; }
+        .next-btn { right: 10px; }
+
+        .prev-btn:hover, .next-btn:hover {
+            background: #274a78;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ibrahim Murad</h1>
+    <p>Technical Project Lead • Systems Engineering • Product Cybersecurity • Functional Safety</p>
+</header>
 
 <nav>
     <a href="index.html">About</a>
@@ -5,3 +69,60 @@
     <a href="Applicable Roles.html">Applicable Roles</a>
     <a href="Projects.html">Projects</a>
 </nav>
+
+<section>
+    <h2>Plant Model</h2>
+
+    <div class="image-slider">
+
+        <!-- Slide images -->
+        <img src="Slide1.png" class="slide active">
+        <img src="Slide2.png" class="slide">
+        <img src="Slide3.png" class="slide">
+        <img src="Slide4.png" class="slide">
+        <img src="Slide5.png" class="slide">
+        <img src="Slide6.png" class="slide">
+        <img src="Slide7.png" class="slide">
+        <img src="Slide8.png" class="slide">
+
+        <!-- Last slide: video -->
+        <div class="slide">
+            <video width="100%" controls>
+                <source src="PlantModel.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+
+        <!-- Navigation buttons -->
+        <button class="prev-btn">❮</button>
+        <button class="next-btn">❯</button>
+
+    </div>
+</section>
+
+<footer>
+    Ibrahim Murad — Projects
+</footer>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+    let index = 0;
+
+    function showSlide(i) {
+        slides.forEach(s => s.classList.remove('active'));
+        slides[i].classList.add('active');
+    }
+
+    document.querySelector('.next-btn').onclick = () => {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    };
+
+    document.querySelector('.prev-btn').onclick = () => {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    };
+</script>
+
+</body>
+</html>
