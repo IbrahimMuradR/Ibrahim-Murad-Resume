@@ -6,7 +6,6 @@
     <title>Projects – Ibrahim Murad</title>
     <link rel="stylesheet" href="style.css?v=2">
 
-
     <style>
         .image-slider {
             position: relative;
@@ -54,6 +53,11 @@
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
+        /* Add spacing between projects */
+        .project-block {
+            margin-bottom: 80px;
+        }
     </style>
 </head>
 
@@ -71,12 +75,13 @@
     <a href="Projects.html">Projects</a>
 </nav>
 
-<section>
+<!-- ========================= PLANT MODEL ========================= -->
+
+<section class="project-block">
     <h2>Plant Model</h2>
 
-    <div class="image-slider">
+    <div class="image-slider" id="slider1">
 
-        <!-- Slide images -->
         <img src="Slide1.PNG" class="slide active">
         <img src="Slide2.PNG" class="slide">
         <img src="Slide3.PNG" class="slide">
@@ -85,58 +90,59 @@
         <img src="Slide6.PNG" class="slide">
         <img src="Slide7.PNG" class="slide">
 
-        <!-- Last slide: video -->
         <div class="slide">
             <video width="100%" controls>
                 <source src="PlantModel.mp4" type="video/mp4">
-                Your browser does not support video playback.
             </video>
         </div>
 
-        <!-- Navigation buttons -->
         <button class="prev-btn">❮</button>
         <button class="next-btn">❯</button>
 
+    </div>
+</section>
+
+<!-- ========================= ADAS FUSION ========================= -->
+
+<section class="project-block">
     <h2>ADAS Fusion – Camera & Radar Perception</h2>
 
-    <div class="image-slider">
-    <!-- Slide 1 -->
-    <img src="ADAS1.PNG" class="slide active">
-    <!-- Slide 2 -->
-    <img src="ADAS2.PNG" class="slide">
-    <!-- Slide 3 -->
-    <img src="ADAS3.PNG" class="slide">
-    <!-- Slide 4 -->
-    <img src="ADAS4.PNG" class="slide">
-    <!-- Slide 5 -->
-    <img src="ADAS5.PNG" class="slide">
-    <!-- Slide 6 (VIDEO) -->
-    <div class="slide">
-        <video width="100%" controls>
-            <source src="AdasFusion.mp4" type="video/mp4">
-            Your browser does not support video playback.
-        </video>
+    <div class="image-slider" id="slider2">
+
+        <img src="ADAS1.JPG" class="slide active">
+        <img src="ADAS2.JPG" class="slide">
+        <img src="ADAS3.JPG" class="slide">
+        <img src="ADAS4.JPG" class="slide">
+        <img src="ADAS5.JPG" class="slide">
+
+        <div class="slide">
+            <video width="100%" controls>
+                <source src="AdasFusion.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <img src="ADAS7.JPG" class="slide">
+        <img src="ADAS8.JPG" class="slide">
+        <img src="ADAS9.JPG" class="slide">
+
+        <button class="prev-btn">❮</button>
+        <button class="next-btn">❯</button>
+
     </div>
-    <!-- Slide 7 -->
-    <img src="ADAS7.PNG" class="slide">
-    <!-- Slide 8 -->
-    <img src="ADAS8.PNG" class="slide">
-    <!-- Slide 9 -->
-    <img src="ADAS9.PNG" class="slide">
-    <!-- Navigation buttons -->
-    <button class="prev-btn">❮</button>
-    <button class="next-btn">❯</button>
-
-</div>
-
 </section>
 
 <footer>
     Ibrahim Murad — Projects
 </footer>
 
+<!-- ========================= JAVASCRIPT FOR TWO SLIDERS ========================= -->
+
 <script>
-    const slides = document.querySelectorAll('.slide');
+function initSlider(sliderId) {
+    const slider = document.getElementById(sliderId);
+    const slides = slider.querySelectorAll('.slide');
+    const nextBtn = slider.querySelector('.next-btn');
+    const prevBtn = slider.querySelector('.prev-btn');
     let index = 0;
 
     function showSlide(i) {
@@ -144,17 +150,20 @@
         slides[i].classList.add('active');
     }
 
-    document.querySelector('.next-btn').onclick = () => {
+    nextBtn.onclick = () => {
         index = (index + 1) % slides.length;
         showSlide(index);
     };
 
-    document.querySelector('.prev-btn').onclick = () => {
+    prevBtn.onclick = () => {
         index = (index - 1 + slides.length) % slides.length;
         showSlide(index);
     };
+}
+
+initSlider("slider1");
+initSlider("slider2");
 </script>
 
 </body>
 </html>
-
