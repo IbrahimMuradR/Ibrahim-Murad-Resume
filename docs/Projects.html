@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Projects – Ibrahim Murad</title>
+
     <link rel="stylesheet" href="style.css?v=2">
 
     <style>
@@ -12,11 +18,11 @@
             width: 100%;
             max-width: 900px;
             margin: 30px auto;
+            padding: 10px;
+            overflow: hidden;
             background: #fff;
             border: 1px solid #1e3a5f;
             border-radius: 8px;
-            padding: 10px;
-            overflow: hidden;
         }
 
         .slide {
@@ -29,34 +35,101 @@
             display: block;
         }
 
-        .prev-btn, .next-btn {
+        .prev-btn,
+        .next-btn {
             position: absolute;
             top: 50%;
-            transform: translateY(-50%);
-            background: #1e3a5f;
-            color: #fff;
-            border: none;
             padding: 10px 14px;
+            transform: translateY(-50%);
+            color: #fff;
+            background: #1e3a5f;
+            border: none;
             border-radius: 50%;
             cursor: pointer;
             font-size: 18px;
         }
 
-        .prev-btn { left: 10px; }
-        .next-btn { right: 10px; }
+        .prev-btn {
+            left: 10px;
+        }
 
-        .prev-btn:hover, .next-btn:hover {
+        .next-btn {
+            right: 10px;
+        }
+
+        .prev-btn:hover,
+        .next-btn:hover,
+        .prev-btn:focus,
+        .next-btn:focus {
             background: #274a78;
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         /* Add spacing between projects */
         .project-block {
             margin-bottom: 80px;
+        }
+
+        /* Strategy to Delivery project description */
+        .project-description {
+            width: min(900px, calc(100% - 40px));
+            margin: 24px auto 0;
+            padding: 26px 30px;
+            background: #fff;
+            border: 1px solid #1e3a5f;
+            border-radius: 8px;
+            line-height: 1.7;
+        }
+
+        .project-description p {
+            margin: 0 0 18px;
+        }
+
+        /* Invitation to explore the tool */
+        .tool-invitation {
+            margin-top: 24px;
+            padding: 18px 20px;
+            background: #eef5fc;
+            border-left: 4px solid #1e3a5f;
+            border-radius: 4px;
+        }
+
+        .tool-invitation p {
+            margin: 0 0 12px;
+        }
+
+        .tool-link {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 10px 16px;
+            color: #fff;
+            background: #1e3a5f;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .tool-link:hover,
+        .tool-link:focus {
+            background: #274a78;
+        }
+
+        @media (max-width: 600px) {
+            .project-description {
+                width: calc(100% - 24px);
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -65,7 +138,11 @@
 
 <header>
     <h1>Ibrahim Murad</h1>
-    <p>Technical Project Lead • Systems Engineering • Product Cybersecurity • Functional Safety</p>
+
+    <p>
+        Technical Project Lead • Systems Engineering •
+        Product Cybersecurity • Functional Safety
+    </p>
 </header>
 
 <nav>
@@ -81,52 +158,210 @@
     <h2>Plant Model</h2>
 
     <div class="image-slider" id="slider1">
+        <img
+            src="Slide1.PNG"
+            class="slide active"
+            alt="Plant Model project slide 1"
+        >
 
-        <img src="Slide1.PNG" class="slide active">
-        <img src="Slide2.PNG" class="slide">
-        <img src="Slide3.PNG" class="slide">
-        <img src="Slide4.PNG" class="slide">
-        <img src="Slide5.PNG" class="slide">
-        <img src="Slide6.PNG" class="slide">
-        <img src="Slide7.PNG" class="slide">
+        <img
+            src="Slide2.PNG"
+            class="slide"
+            alt="Plant Model project slide 2"
+        >
+
+        <img
+            src="Slide3.PNG"
+            class="slide"
+            alt="Plant Model project slide 3"
+        >
+
+        <img
+            src="Slide4.PNG"
+            class="slide"
+            alt="Plant Model project slide 4"
+        >
+
+        <img
+            src="Slide5.PNG"
+            class="slide"
+            alt="Plant Model project slide 5"
+        >
+
+        <img
+            src="Slide6.PNG"
+            class="slide"
+            alt="Plant Model project slide 6"
+        >
+
+        <img
+            src="Slide7.PNG"
+            class="slide"
+            alt="Plant Model project slide 7"
+        >
 
         <div class="slide">
             <video width="100%" controls>
-                <source src="PlantModel.mp4" type="video/mp4">
+                <source
+                    src="PlantModel.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video element.
             </video>
         </div>
 
-        <button class="prev-btn">❮</button>
-        <button class="next-btn">❯</button>
+        <button
+            type="button"
+            class="prev-btn"
+            aria-label="Previous Plant Model slide"
+        >
+            ❮
+        </button>
 
+        <button
+            type="button"
+            class="next-btn"
+            aria-label="Next Plant Model slide"
+        >
+            ❯
+        </button>
     </div>
 </section>
 
 <!-- ========================= ADAS FUSION ========================= -->
 
 <section class="project-block">
-    <h2>ADAS Fusion – Camera & Radar Perception</h2>
+    <h2>ADAS Fusion – Camera &amp; Radar Perception</h2>
 
     <div class="image-slider" id="slider2">
+        <img
+            src="ADAS1.JPG"
+            class="slide active"
+            alt="ADAS Fusion project slide 1"
+        >
 
-        <img src="ADAS1.JPG" class="slide active">
-        <img src="ADAS2.JPG" class="slide">
-        <img src="ADAS3.JPG" class="slide">
-        <img src="ADAS4.JPG" class="slide">
-        <img src="ADAS5.JPG" class="slide">
+        <img
+            src="ADAS2.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 2"
+        >
+
+        <img
+            src="ADAS3.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 3"
+        >
+
+        <img
+            src="ADAS4.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 4"
+        >
+
+        <img
+            src="ADAS5.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 5"
+        >
 
         <div class="slide">
             <video width="100%" controls>
-                <source src="AdasFusion.mp4" type="video/mp4">
+                <source
+                    src="AdasFusion.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support the video element.
             </video>
         </div>
 
-        <img src="ADAS8.JPG" class="slide">
-        <img src="ADAS9.JPG" class="slide">
+        <img
+            src="ADAS8.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 8"
+        >
 
-        <button class="prev-btn">❮</button>
-        <button class="next-btn">❯</button>
+        <img
+            src="ADAS9.JPG"
+            class="slide"
+            alt="ADAS Fusion project slide 9"
+        >
 
+        <button
+            type="button"
+            class="prev-btn"
+            aria-label="Previous ADAS Fusion slide"
+        >
+            ❮
+        </button>
+
+        <button
+            type="button"
+            class="next-btn"
+            aria-label="Next ADAS Fusion slide"
+        >
+            ❯
+        </button>
+    </div>
+</section>
+
+<!-- ========================= STRATEGY TO DELIVERY ========================= -->
+
+<section class="project-block">
+    <h2>Management Tool: Strategy to Delivery</h2>
+
+    <div class="project-description">
+        <p>
+            The Strategy Roadmap provides a structured view of strategic
+            objectives across management domains, delivery statuses and
+            planned timelines. It allows objectives to be created, positioned
+            and connected through dependencies, making it easier to see how
+            strategic priorities relate to one another, when they are
+            expected to be delivered and how progress supports the wider
+            direction of the organisation.
+        </p>
+
+        <p>
+            The Program Management section turns strategic objectives into
+            coordinated programmes of work. Programmes can be linked directly
+            to the strategic objectives they support, bringing related
+            projects together while providing programme-level views of
+            milestones, schedules, costs, risks, issues, dependencies, change
+            requests and benefits. This creates a clear line of sight between
+            strategic intent and the coordinated delivery activity required
+            to achieve it.
+        </p>
+
+        <p>
+            The Project Management section supports detailed delivery
+            planning and control within each programme. Projects can be linked
+            to their parent programme and managed through resource and work
+            breakdown structures, milestones, schedules, costs, RAID
+            information and change requests. The connection between projects,
+            programmes and strategic objectives helps show how individual
+            work products and delivery decisions contribute to programme
+            outcomes and, ultimately, to the strategy.
+        </p>
+
+        <div class="tool-invitation">
+            <p>
+                You are invited to access the tool and explore it for
+                yourself. Create a few objectives, programmes and projects,
+                connect them together, and play around with the different
+                views to see how the journey from strategy to delivery works
+                in practice. And if you have any feedback please let me know :)
+            </p>
+
+            <a
+                class="tool-link"
+                href="https://ibrahimmuradr.github.io/pm-tool/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Open the Strategy to Delivery tool
+            </a>
+        </div>
     </div>
 </section>
 
@@ -134,34 +369,43 @@
     Ibrahim Murad — Projects
 </footer>
 
-<!-- ========================= JAVASCRIPT FOR TWO SLIDERS ========================= -->
+<!-- ========================= JAVASCRIPT FOR SLIDERS ========================= -->
 
 <script>
-function initSlider(sliderId) {
-    const slider = document.getElementById(sliderId);
-    const slides = slider.querySelectorAll('.slide');
-    const nextBtn = slider.querySelector('.next-btn');
-    const prevBtn = slider.querySelector('.prev-btn');
-    let index = 0;
+    function initSlider(sliderId) {
+        const slider = document.getElementById(sliderId);
 
-    function showSlide(i) {
-        slides.forEach(s => s.classList.remove('active'));
-        slides[i].classList.add('active');
+        if (!slider) {
+            return;
+        }
+
+        const slides = slider.querySelectorAll(".slide");
+        const nextBtn = slider.querySelector(".next-btn");
+        const prevBtn = slider.querySelector(".prev-btn");
+
+        let index = 0;
+
+        function showSlide(i) {
+            slides.forEach(slide => {
+                slide.classList.remove("active");
+            });
+
+            slides[i].classList.add("active");
+        }
+
+        nextBtn.onclick = () => {
+            index = (index + 1) % slides.length;
+            showSlide(index);
+        };
+
+        prevBtn.onclick = () => {
+            index = (index - 1 + slides.length) % slides.length;
+            showSlide(index);
+        };
     }
 
-    nextBtn.onclick = () => {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    };
-
-    prevBtn.onclick = () => {
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-    };
-}
-
-initSlider("slider1");
-initSlider("slider2");
+    initSlider("slider1");
+    initSlider("slider2");
 </script>
 
 </body>
